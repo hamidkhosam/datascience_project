@@ -66,7 +66,7 @@ The notebook performs several analytical steps to explore the data and derive in
 
 ---
 
-## ⚙️ Technologies Used
+## ⚙️ Tools & Libraries Used
 
 | Library | Purpose |
 |----------|----------|
