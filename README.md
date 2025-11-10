@@ -8,10 +8,10 @@ It uses **Python, Pandas, Matplotlib, and Seaborn** to explore, clean, and visua
 ## 📊 Dataset Description
 
 The dataset contains:
-- **Country** and **Country Code**
+- **Country Name**, **Country Code**, **Series Name** and **Series Code**
 - **Five columns (2012–2016)** indicating the percentage of population with access to electricity
 - **Continent** for geographical grouping
-- Additional columns such as average and others not central to this analysis
+
 
 Each row corresponds to a single country.
 
@@ -31,7 +31,7 @@ The notebook performs several analytical steps to explore the data and derive in
 3. **Data selections (4 examples)**  
    - Filtering with `.loc[]` (e.g., African countries)  
    - Selection with `.iloc[]` (specific rows/columns)  
-   - Subsets for countries with low access (<50%)  
+   - Subsets for countries with low access (<80%)  
    - Reduced dataframe with selected columns
 
 4. **Sorting (2 examples)**  
@@ -70,7 +70,7 @@ The notebook performs several analytical steps to explore the data and derive in
 
 | Library | Purpose |
 |----------|----------|
-| **Python 3** | General programming |
+| **Python 3.12.7** | General programming |
 | **Pandas** | Data cleaning & manipulation |
 | **Matplotlib** | Visualization |
 | **Seaborn** | Advanced visualization |
